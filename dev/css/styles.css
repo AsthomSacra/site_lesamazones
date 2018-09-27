@@ -56,21 +56,51 @@ a{ text-decoration:none; }
 /************************/
 
 .informations{
-	height:250px;
+	height:300px;
 	background-color:#000;
+	box-shadow: -11px 2px 15px #000;
+	z-index: 100;
 }
 .informations-before{
 	height:20px;
 	background-color:#fcd614;
 }
 .informations .container{
+	display:flex;
+	flex-direction: row;
 	width:80%;
 	margin:auto;
 	margin-top:50px;
+	font-size: 0px;
 }
 .informations .informations-texte{
+	width:60%;
 	color:#FFF;
 	text-align: justify;
-	font-size:28px;
+	font-size:16px;
 	text-transform: uppercase;
+	margin-right:10px;
+}
+.informations .informations-image{
+	width:40%;
+	text-align: center;
+}
+.informations .informations-image-img{
+	width:350px;
+}
+
+.middle{
+	display:flex;
+	flex-direction: row;
+}
+.middle .middle-actus{
+	width:80%;
+	padding-left:50px;
+	padding-right:50px;
+}
+.middle .middle-sidebar-right{
+	width:20%;
+	padding-left: 10px; padding-right:10px; padding-top: 10px; padding-bottom: 10px;
+	background-color: #ACACAC;
+	z-index: 1;
 }
