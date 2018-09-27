@@ -1,0 +1,10 @@
+{
+  "name": "les_amazones_site",
+  "version": "1.0.0",
+  "description": "Siteweb des amazones",
+  "main": "index.php",
+  "repository": "https://github.com/AsthomSacra/site_lesamazones",
+  "author": "les amazones",
+  "license": "MIT",
+  "private": true
+}
