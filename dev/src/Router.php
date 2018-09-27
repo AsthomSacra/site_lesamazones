@@ -23,19 +23,18 @@ class Router {
 		try {
 			switch($action) {
 				case "home":
-
 					$this->v->makePageHome();;
 					break;		
 
 					
 				default:
 					echo "pop";
+					$view->renderDefault();
 					break;
 			}
 		} catch (Exception $e) {
 			echo "pop";
 		}
-		$view->render();
 
 	}
 	

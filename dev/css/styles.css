@@ -1,0 +1,76 @@
+/* ################# ELEMENT HTML ################# */
+body{
+    width:auto;
+	margin:auto;
+}
+a{ text-decoration:none; }
+
+/************************/
+/*	      HEADER		*/
+/************************/
+.navbar{
+	padding-top:50px;
+	height:600px;
+	background: url("../img/bg-header.jpg") no-repeat center;
+	background-size: 1920px 700px;
+}
+.navbar .container{
+	width:80%;
+	margin:auto;
+	display:flex;
+	flex-direction: row;
+	border-bottom: 1px solid black;
+}
+.navbar-social{
+	width:10%;
+}
+.navbar-menu{
+	width:80%;
+	text-align: center;
+}
+.navbar-menu ul li{
+	list-style:none;
+	padding-left: 10px; padding-right: 10px;
+	display:inline-block;
+}
+.navbar-menu a{
+	font-weight: bold;
+	text-transform: uppercase;
+	text-decoration: none;
+	color:#000;
+}
+.navbar-lang{
+	width:10%;
+	text-align:right;
+}
+.navbar-lang-img{
+	width:25px; height:25px;
+}
+.navbar .navbar-logo img{
+	display:block;
+	margin:auto;
+}
+
+/************************/
+/*	     BLOC INFO		*/
+/************************/
+
+.informations{
+	height:250px;
+	background-color:#000;
+}
+.informations-before{
+	height:20px;
+	background-color:#fcd614;
+}
+.informations .container{
+	width:80%;
+	margin:auto;
+	margin-top:50px;
+}
+.informations .informations-texte{
+	color:#FFF;
+	text-align: justify;
+	font-size:28px;
+	text-transform: uppercase;
+}
