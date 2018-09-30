@@ -34,7 +34,15 @@
 			</div>
 			<div class="navbar-logo">
 				<img class="navbar-logo-img" src="img/les-amazones-logo.png" alt="Les Amazones"/>
-		</div>
+			</div>
+
+			<div class="navbar-newsletter">
+				<h1>Ne rien louper de l'aventure !</h1>
+				<form><!-- Formulaire à compléter -->
+					<input type="email" id="mail" name="user_mail" placeholder="Adresse email" required />
+					<button type="submit">S'inscrire</button>
+				</form>
+			</div>
 		</nav>
 	</header>
 
@@ -42,6 +50,7 @@
 		<div class="informations-before"></div>
 		<div class="container">
 			<div class="informations-texte">
+				<h1>ÉPIQUE ET DÉJANTÉ !</h1>
 				<p>Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.</p>
 			</div>
 			<div class="informations-image">
@@ -53,25 +62,97 @@
 	<div class="middle">
 		<div class="middle-actus">
 			<div class="container">
-				<h2 class="middle-actus-titre">Actualités</h2>
-				<article class="article">
-					<h3 class="article-titre">Article test</h3>
-					<p class="article-auteur">Asthom</p>
-					<p class="article-date">27-09-2018</p>
-					<p class="article-texte">Hae duae provinciae bello quondam piratico catervis mixtae praedonum a Servilio pro consule missae sub iugum factae sunt vectigales. et hae quidem regiones velut in prominenti terrarum lingua positae ob orbe eoo monte Amano disparantur.</p>
-				</article>
-				<article class="article">
-					<h3 class="article-titre">Article test</h3>
-					<p class="article-auteur">Asthom</p>
-					<p class="article-date">27-09-2018</p>
-					<p class="article-texte">Hae duae provinciae bello quondam piratico catervis mixtae praedonum a Servilio pro consule missae sub iugum factae sunt vectigales. et hae quidem regiones velut in prominenti terrarum lingua positae ob orbe eoo monte Amano disparantur.</p>
-				</article>
-				<article class="article">
-					<h3 class="article-titre">Article test</h3>
-					<p class="article-auteur">Asthom</p>
-					<p class="article-date">27-09-2018</p>
-					<p class="article-texte">Hae duae provinciae bello quondam piratico catervis mixtae praedonum a Servilio pro consule missae sub iugum factae sunt vectigales. et hae quidem regiones velut in prominenti terrarum lingua positae ob orbe eoo monte Amano disparantur.</p>
-				</article>
+				<div class="middle-actus-une">
+					<h2 class="middle-actus-titre">Actualités</h2>
+					<article class="article">
+						<!-- Image miniature des articles -->
+						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
+
+						<h3 class="article-titre">Titre de l'article</h3>
+						<p class="article-date">27-09-2018</p>
+						
+					</article>
+					<article class="article">
+						<!-- Image miniature des articles -->
+						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
+
+						<h3 class="article-titre">Titre de l'article</h3>
+						<p class="article-date">27-09-2018</p>
+						
+					</article>
+					<article class="article">
+						<!-- Image miniature des articles -->
+						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
+
+						<h3 class="article-titre">Titre de l'article</h3>
+						<p class="article-date">27-09-2018</p>
+						
+					</article>
+					<article class="article">
+						<!-- Image miniature des articles -->
+						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
+
+						<h3 class="article-titre">Titre de l'article</h3>
+						<p class="article-date">27-09-2018</p>
+						
+					</article>
+				</div>
+
+				<div class="container-actus-2">
+					<div class="middle-actus-ecrits">
+					<!-- Sidebar gauche article -->
+						<h2>Dernières sorties littéraires</h2>
+
+						<ul>
+							<li class="articles-liste">
+								<div class="articles-liste-image">
+									<img src="img/miniature-article.jpg" alt="Miniature"/>
+								</div>
+								<div class="articles-liste-contenu">
+									<h4 class="articles-liste-contenu-titre">Titre de l'article</h4>
+									<hr/>
+									<p class="date">Publié le 30/09/2018 à 19:10<p>
+									<p class="apercu">Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis.</p>
+								</div>
+							</li>
+
+							<li class="articles-liste">
+								<div class="articles-liste-image">
+									<img src="img/miniature-article.jpg" alt="Miniature"/>
+								</div>
+								<div class="articles-liste-contenu">
+									<h4 class="articles-liste-contenu-titre">Titre de l'article</h4>
+									<hr/>
+									<p class="date">Publié le 30/09/2018 à 19:10<p>
+									<p class="apercu">Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis.</p>
+								</div>
+							</li>
+
+							<li class="articles-liste">
+								<div class="articles-liste-image">
+									<img src="img/miniature-article.jpg" alt="Miniature"/>
+								</div>
+								<div class="articles-liste-contenu">
+									<h4 class="articles-liste-contenu-titre">Titre de l'article</h4>
+									<hr/>
+									<p class="date">Publié le 30/09/2018 à 19:10<p>
+									<p class="apercu">Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis.</p>
+								</div>
+							</li>
+
+						</ul>
+						<article class="article-actus-ecrits">
+							<div class="container">
+								<img class="article-actus-ecrits-image"
+							</div>
+						</article>
+					</div>
+
+					<div class="middle-actus-illustrations">
+					<!-- Sidebar droite illustration -->
+						<h2>Dernières illustrations</h2>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="middle-sidebar-right">
@@ -89,7 +170,7 @@
 		<div class="container">
 			<div class="footer-newsletter">
 				<h1>Newsletter</h1>
-				<form>
+				<form> <!-- Formulaire à compléter -->
 					<input type="email" id="mail" name="user_mail" placeholder="Adresse email" required />
 					<button type="submit">S'inscrire</button>
 				</form>

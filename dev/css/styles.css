@@ -106,7 +106,77 @@ a{ text-decoration:none; }
 }
 
 
+.middle .middle-actus-une{
+	font-size: 0px;
+}
+.middle .middle-actus-une h2{
+	font-size: 28px;
+	text-transform: uppercase;
+}
+.article{
+	display:inline-block;
+	width:25%;
+	margin:auto;
+	text-align: center;
+}
+.article .article-titre{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.article .article-date{
+	font-size: 14px;
+}
 
+.container-actus-2{
+	font-size: 0px;
+}
+
+/*****************************/
+.container-actus-2{
+	display:flex;
+	flex-direction: row;
+}
+.middle-actus-ecrits{
+	width:50%;
+}
+.middle-actus-ecrits h2{
+	font-size: 16px;
+	text-transform:uppercase;
+}
+.articles-liste{
+	display:flex;
+	flex-direction: row;
+	border:1px solid blue;
+}
+.articles-liste-image{
+	width:30%;
+	overflow: hidden;
+	border:1px solid red;
+}
+.articles-liste-contenu{
+	width:70%;
+	border:1px solid pink;
+}
+
+.articles-liste-contenu h4{
+	font-size: 16px;
+	text-transform: uppercase;
+}
+.articles-liste-contenu .date{
+	font-size: 8px;
+}
+.articles-liste-contenu .apercu{
+	font-size: 12px;
+}
+.middle-actus-illustrations{
+	width:50%;
+}
+.middle-actus-illustrations h2{
+	font-size: 16px;
+	text-transform:uppercase;
+}
+
+/******************************/
 .footer{
 	background-color: #0B0B0B;
 	color:#FFF;
