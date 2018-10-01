@@ -46,60 +46,54 @@
 		</nav>
 	</header>
 
-	<div class="informations">
-		<div class="informations-before"></div>
+	<div id="informations">
+		<div id="yellow-line"></div>
 		<div class="container">
-			<div class="informations-texte">
+			<div class="left">
 				<h1>ÉPIQUE ET DÉJANTÉ !</h1>
 				<p>Et licet quocumque oculos flexeris feminas adfatim multas spectare cirratas, quibus, si nupsissent, per aetatem ter iam nixus poterat suppetere liberorum, ad usque taedium pedibus pavimenta tergentes iactari volucriter gyris, dum exprimunt innumera simulacra, quae finxere fabulae theatrales.</p>
 			</div>
-			<div class="informations-image">
-				<img class="informations-image-img" src="img/informations-lesamazones" alt="Les Amazones ?"/>
+			<div class="right">
+				<img src="img/informations-lesamazones" alt="Les Amazones ?"/>
 			</div>
 		</div>
 	</div>
 
-	<div class="middle">
-		<div class="middle-actus">
+	<div id="middle">
+		<div class="actus">
 			<div class="container">
-				<div class="middle-actus-une">
-					<h2 class="middle-actus-titre">Actualités</h2>
-					<article class="article">
-						<!-- Image miniature des articles -->
-						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
-
-						<h3 class="article-titre">Titre de l'article</h3>
-						<p class="article-date">27-09-2018</p>
-						
-					</article>
-					<article class="article">
-						<!-- Image miniature des articles -->
-						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
-
-						<h3 class="article-titre">Titre de l'article</h3>
-						<p class="article-date">27-09-2018</p>
-						
-					</article>
-					<article class="article">
-						<!-- Image miniature des articles -->
-						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
-
-						<h3 class="article-titre">Titre de l'article</h3>
-						<p class="article-date">27-09-2018</p>
-						
-					</article>
-					<article class="article">
-						<!-- Image miniature des articles -->
-						<img class="article-image-min" src="img/miniature-article.jpg" alt="Miniature article"/>
-
-						<h3 class="article-titre">Titre de l'article</h3>
-						<p class="article-date">27-09-2018</p>
-						
-					</article>
+				<div id="en-avant">
+					<h2>Actualités</h2>
+						<div class="container">
+						<article class="article">
+							<!-- Image miniature des articles -->
+							<img src="img/miniature-article.jpg" alt="Miniature article"/>
+							<h3 class="article-titre">Titre de l'article</h3>
+							<p class="article-date">27-09-2018</p>	
+						</article>
+						<article class="article">
+							<!-- Image miniature des articles -->
+							<img src="img/miniature-article.jpg" alt="Miniature article"/>
+							<h3 class="article-titre">Titre de l'article</h3>
+							<p class="article-date">27-09-2018</p>
+						</article>
+						<article class="article">
+							<!-- Image miniature des articles -->
+							<img src="img/miniature-article.jpg" alt="Miniature article"/>
+							<h3 class="article-titre">Titre de l'article</h3>
+							<p class="article-date">27-09-2018</p>
+						</article>
+						<article class="article">
+							<!-- Image miniature des articles -->
+							<img src="img/miniature-article.jpg" alt="Miniature article"/>
+							<h3 class="article-titre">Titre de l'article</h3>
+							<p class="article-date">27-09-2018</p>
+						</article>
+					</div>
 				</div>
 
-				<div class="container-actus-2">
-					<div class="middle-actus-ecrits">
+				<div class="sorties">
+					<div class="left">
 					<!-- Sidebar gauche article -->
 						<h2>Dernières sorties littéraires</h2>
 
@@ -141,21 +135,20 @@
 							</li>
 
 						</ul>
-						<article class="article-actus-ecrits">
-							<div class="container">
-								<img class="article-actus-ecrits-image"
-							</div>
-						</article>
+			
 					</div>
 
-					<div class="middle-actus-illustrations">
+					<div class="right">
 					<!-- Sidebar droite illustration -->
 						<h2>Dernières illustrations</h2>
+						<div class="illustration">
+							<img class="actus-illu" src="img/miniature-article.jpg" alt="Illustration">
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="middle-sidebar-right">
+		<div class="sidebar-right">
 			<div class="container">
 				<p>Equitis Romani autem esse filium criminis loco poni ab accusatoribus neque his iudicantibus oportuit neque defendentibus nobis. Nam quod de pietate dixistis, est quidem ista nostra existimatio, sed iudicium certe parentis; quid nos opinemur, audietis ex iuratis; quid parentes sentiant, lacrimae matris incredibilisque maeror, squalor patris et haec praesens maestitia, quam cernitis, luctusque declarat.</p>
 
@@ -163,6 +156,13 @@
 
 				<p>Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latasque leges fundamenta libertatis et retinacula sempiterna velut frugi parens et prudens et dives Caesaribus tamquam liberis suis regenda patrimonii iura permisit.</p>
 			</div>
+		</div>
+	</div>
+
+	<div class="equipe">
+		<div class="container">
+			<h2>Équipe</h2>
+			<p>Ideo urbs venerabilis post superbas efferatarum gentium cervices oppressas latasque leges fundamenta libertatis et retinacula sempiterna velut frugi parens et prudens et dives Caesaribus tamquam liberis suis regenda patrimonii iura permisit.</p>
 		</div>
 	</div>
 
