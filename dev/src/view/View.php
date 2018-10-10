@@ -40,6 +40,16 @@ class View
 		//$this->contenu = "include/home.php";
 	}
 
+	public function makePageEpisode(){
+		require_once("ViewEpisode.php");
+		//$this->contenu = "include/home.php";
+	}
+
+	public function makePageChapitre(){
+		require_once("ViewChapitre.php");
+		//$this->contenu = "include/home.php";
+	}
+
 	
 }
 ?>
