@@ -13,11 +13,17 @@ class Controller extends PDO
 	public function __construct(View $view) {
 		$this->v = $view;
 		$this->mEpisode = new Episode();
-		$this->bd = new PDO('mysql:host=mysql.info.unicaen.fr;port=3306;dbname=21505101_dev;charset', '21505101', 'ood5Jiephoo2ieng');
 	}
 	
 	public function episode($chapitreId, $episodeId){
-		$this->mEpisode->recuperation($chapitreId, $episodeId);
+		$req = $this->mEpisode->recuperation($chapitreId, $episodeId);
+		var_dump($req);
+		if($req !== null){
+			$this->v->setEpisodeInfo($req);
+		}
+		else{
+			$this->v->makePageEpisodeInconnu();
+		}
 		/* Fonction getEpisode qui traite les données de l'épisode */
 		$this->v->makePageEpisode();
 	}

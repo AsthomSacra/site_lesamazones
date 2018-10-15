@@ -15,10 +15,7 @@
 <body>
 	<?php require_once('view/include/header.php'); ?>
 
-	<h1>View Episode</h1>
-	<?php 
-		echo $this->getEpisodeInfo()['resume'];
-	?>
+	<h1>View Episode Inconnu</h1>
 	
 	<footer class="footer">
 		<div class="container">

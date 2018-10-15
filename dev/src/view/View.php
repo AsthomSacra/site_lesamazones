@@ -4,7 +4,9 @@ require_once("Router.php");
 
 class View
 {
-	
+	protected $episodeInfo;
+	protected $titre;
+
 	public function __construct(Router $router) {
 		$this->router = $router;
 		$this->title = null;
@@ -50,6 +52,23 @@ class View
 		//$this->contenu = "include/home.php";
 	}
 
-	
+	public function makePageEpisodeInconnu(){
+		require_once("ViewEpisodeInconnu.php");
+	}
+
+	public function setEpisodeInfo($infos){
+		$this->episodeInfo = $infos;
+	}
+	public function getEpisodeInfo(){
+		return $this->episodeInfo;
+	}
+
+	public function setTitre($titre){
+		$this->titre = $titre;
+	}
+	public function getTitre(){
+		return $this->titre;
+	}
+
 }
 ?>

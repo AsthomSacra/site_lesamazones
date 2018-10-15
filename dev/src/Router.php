@@ -1,6 +1,7 @@
 <?php
 
 require_once("view/View.php");
+require_once("control/Controller.php");
 
 class Router {
    
@@ -12,6 +13,7 @@ class Router {
 	public function main(){
 	
 		$view = new View($this);
+		$ctrl = new Controller($view);
 		
 		$action = key_exists('action', $_GET)? $_GET['action']: null;
 		$chapitreId = key_exists('chapitreId', $_GET)? $_GET['chapitreId']: null;
@@ -32,7 +34,7 @@ class Router {
 				case "chapitre":
 					if($episodeId !== null){
 						/* Concerne Prles lights novels */
-						$this->v->makePageEpisode($chapitreId,$episodeId);
+						$ctrl->episode($chapitreId, $episodeId);
 					}
 					else{
 						/* Concerne les romans et chapitres de lights novels */
