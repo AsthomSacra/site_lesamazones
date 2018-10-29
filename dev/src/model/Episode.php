@@ -12,7 +12,7 @@
 		protected $validation;
 		
 		public function __construct(){
-			$this->bd = new PDO('mysql:host=localhost;port=3306;dbname=lesamazones;charset', 'root', '');
+			$this->bd = new PDO('mysql:host=localhost;port=3306;dbname=lesamazones;charset=UTF8', 'root', '');
 		}
 			
 		public function recuperation($chapitreId, $episodeId){

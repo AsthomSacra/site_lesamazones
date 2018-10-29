@@ -4,6 +4,8 @@ require_once("Router.php");
 
 class View
 {
+	/* VIEW MAIN */
+	
 	protected $episodeInfo;
 	protected $titre;
 
